@@ -129,8 +129,8 @@ function App() {
     drawKeypointsFlipped(pose["keypoints"], 0.5, ctx, centerX);
 
     // Pose의 키포인트와 스켈레톤 그리기
-    drawKeypoints(pose["keypoints"], 0.5, ctx);
-    drawSkeleton(pose["keypoints"], 0.5, ctx);
+    // drawKeypoints(pose["keypoints"], 0.5, ctx);
+    // drawSkeleton(pose["keypoints"], 0.5, ctx);
   };
 
   // 좌우 반전된 키포인트 그리기
