@@ -7,16 +7,14 @@ npm install @tensorflow/tfjs @tensorflow-models/posenet react-webcam
 ```
 
 ### 예시
-<detail>
+<details>
 <summary>화면 기준으로 얼굴(코) 위치 확인</summary>
 
-- 정면
-![Alt text](gif/front.gif)
-- 좌측
-![Alt text](gif/left.gif)
-- 우측
-![Alt text](gif/right.gif)
-</detail>
+|좌측|정면|우측|
+|:---:|:---:|:---:|
+|![Alt text](gif/left.gif)|![Alt text](gif/front.gif)|![Alt text](gif/right.gif)|
+
+</details>
 
 ## Facemesh : 얼굴 랜드마크 감지(Face landmark detection)
 - https://github.com/tensorflow/tfjs-models/tree/master/face-landmarks-detection
